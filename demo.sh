@@ -8,11 +8,12 @@ cd "$(dirname "$0")" || exit 1
 source ~/venv/bin/activate
 F=data/test20M.bin
 NOM=$(basename "$F")
-WAIT=${WAIT:-35}
+WAIT=${WAIT:-45}
 
 pause()    { read -r -p $'\n[Entrée pour continuer] '; }
 titre()    { echo -e "\n\033[1;36m=== $* ===\033[0m"; }
 cmd()      { echo -e "\033[0;33m\$ $*\033[0m"; eval "$@"; }
+journal()  { grep -E "WARNING|CRITICAL|réparé" logs/surveillant.log | tail -n 4; }
 attendre() { echo "Attente du surveillant (${WAIT} s)..."; sleep "$WAIT"; }
 
 titre "0. Remise à zéro"
@@ -36,7 +37,7 @@ pause
 
 titre "3. Le surveillant détecte la panne et reconstruit le morceau sur un nœud de secours"
 attendre
-cmd tail -n 4 logs/surveillant.log
+cmd journal
 cmd python repartir.py etat
 pause
 
