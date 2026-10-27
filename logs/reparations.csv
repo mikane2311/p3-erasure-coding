@@ -1,0 +1,4 @@
+horodatage,fichier,morceau,cause,ancien_noeud,nouveau_noeud,duree_s,octets
+2026-10-27 01:31:48,test20M.bin,2,NOEUD_ARRETE,noeud3,noeud7,0.146,5242880
+2026-10-27 01:32:52,test20M.bin,0,NOEUD_ARRETE,noeud1,noeud3,0.180,5242880
+2026-10-27 01:32:52,test20M.bin,1,NOEUD_ARRETE,noeud2,noeud8,0.203,5242880

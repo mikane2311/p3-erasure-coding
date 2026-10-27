@@ -1,0 +1,17 @@
+Mon Oct 26 23:49:58 +00 2026
+WSL version: 3.0.3.0
+Kernel version: 6.18.54.1-1
+WSLg version: 1.0.79
+MSRDC version: 1.2.7391
+Direct3D version: 1.611.1-81528511
+DXCore version: 10.0.26100.1-240331-1435.ge-release
+Windows version: 10.0.26200.9711
+CPU(s):                                  2
+Model name:                              Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       867Mi       1.9Gi       5.6Mi       1.2Gi       3.0Gi
+Swap:          2.0Gi       332Ki       2.0Gi
+/dev/sdd       1007G  4.6G  952G   1% /
+Docker 29.5.3
+Python 3.12.3
+Version: 1.6.0.0

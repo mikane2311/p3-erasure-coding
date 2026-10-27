@@ -1,0 +1,7 @@
+srv/
+data/
+bench_tmp/
+__pycache__/
+index.json
+logs/surveillant.log
+logs/archives/

@@ -1,0 +1,57 @@
+services:
+  noeud1:
+    image: alpine:3.20
+    container_name: noeud1
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud1:/data
+  noeud2:
+    image: alpine:3.20
+    container_name: noeud2
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud2:/data
+  noeud3:
+    image: alpine:3.20
+    container_name: noeud3
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud3:/data
+  noeud4:
+    image: alpine:3.20
+    container_name: noeud4
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud4:/data
+  noeud5:
+    image: alpine:3.20
+    container_name: noeud5
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud5:/data
+  noeud6:
+    image: alpine:3.20
+    container_name: noeud6
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud6:/data
+  noeud7:
+    image: alpine:3.20
+    container_name: noeud7
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud7:/data
+  noeud8:
+    image: alpine:3.20
+    container_name: noeud8
+    user: "1000:1000"
+    command: sleep infinity
+    volumes:
+      - ./srv/noeud8:/data

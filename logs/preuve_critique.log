@@ -1,0 +1,61 @@
+2026-10-26 23:32:45,381 INFO démarrage, intervalle 10 s
+2026-10-26 23:32:46,296 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:32:57,335 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:33:08,070 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:33:18,989 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:33:30,133 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:33:41,160 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:33:51,940 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:34:02,467 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:34:13,033 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:34:23,788 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:34:34,472 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:34:45,020 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:34:55,834 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:35:06,618 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:35:17,717 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:35:28,744 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:35:39,586 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:35:50,598 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:36:01,421 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:36:01,421 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:36:01,423 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:36:12,230 WARNING test20M.bin : 4 morceau(x) défaillant(s) {0: 'NOEUD_ARRETE', 1: 'NOEUD_ARRETE', 2: 'NOEUD_ARRETE', 3: 'NOEUD_ARRETE'}
+2026-10-26 23:36:12,231 CRITICAL test20M.bin : 2 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:36:12,233 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:36:22,841 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:36:22,842 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:36:22,844 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:36:33,315 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:36:33,315 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:36:33,317 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:36:43,781 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:36:43,781 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:36:43,784 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:36:54,248 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:36:54,249 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:36:54,252 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:37:04,737 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:37:04,738 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:37:04,740 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:37:15,189 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:37:15,189 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:37:15,191 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:37:26,254 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:37:26,255 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:37:26,259 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:37:37,253 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:37:37,253 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:37:37,256 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:37:48,160 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:37:48,160 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:37:48,163 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:37:59,199 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:37:59,199 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:37:59,206 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:38:10,375 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:38:10,375 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:38:10,379 INFO cycle terminé (1 fichier(s) contrôlé(s))
+2026-10-26 23:38:21,439 WARNING test20M.bin : 3 morceau(x) défaillant(s) {1: 'MANQUANT', 2: 'NOEUD_ARRETE', 3: 'CORROMPU'}
+2026-10-26 23:38:21,439 CRITICAL test20M.bin : 3 morceaux sains < k=4, réparation impossible (tolérance dépassée)
+2026-10-26 23:38:21,441 INFO cycle terminé (1 fichier(s) contrôlé(s))
